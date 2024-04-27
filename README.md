@@ -60,7 +60,6 @@ Use the elbow method on the PCA data to find the best value for k using the foll
     * Does it differ from the best k-value found using the original data?
     #### **Answer**: 
     >I am not sure if it is supposed to differ, as I had previously determined the same number of clusters. So, it did not change using PCA data. 
-    #### (Ref #1)
 
 # 6. Cluster Cryptocurrencies with K-Means Using the PCA Data
 Use the following steps to cluster the cryptocurrencies for the best value for k on the PCA data:
@@ -87,7 +86,8 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
 * Both `price_change_percentage_30d` (0.562182), and `price_change_percentage_14d` (0.540415) features had the strongest **positive** influence on this component. `The price_change_percentage_1y` (-0.150789) feature had the strongest **negative** influence on this component, although not by much. This tells me that a "medium" interval of time for price changes would have the strongest positive impact. The two highest intervals of time, `price_change_percentage_200d`(200 days) and `price_change_percentage_1y` (1 year), display scores very close to zero, meaning they have very little influence on this component.
 
 ####  Component # 3 - `PCA3`: 
-* The `price_change_percentage_7d` (0.787670) feature had the strongest **positive** influence on this component. It scored much higher than any other feature, compared against any of the 3 components. The `price_change_percentage_60d` (-0.361377) had the **strongest** negative influence on the component. The influence of the features on this component decreases in similar intervals from the price change percentage 14-day feature, to the 60-day feature. It then starts to steadily increase at the 200 day mark, which makes me wonder what it would look like if I had more data and columns that contained features that extended years into the future.    
+* The `price_change_percentage_7d` (0.787670) feature had the strongest **positive** influence on this component. It scored much higher than any other feature, compared against any of the 3 components. The `price_change_percentage_60d` (-0.361377) had the **strongest** negative influence on the component. The influence of the features on this component decreases in similar intervals from the price change percentage 14-day feature, to the 60-day feature. It then starts to steadily increase at the 200 day mark, which makes me wonder what it would look like if I had more data and columns that contained features that extended years into the future.  
+#### (Ref #1)  
 
 # Submission and Grading Requirements:
 ## Coding Conventions and Formatting 
