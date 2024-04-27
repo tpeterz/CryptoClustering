@@ -22,7 +22,7 @@ Use the elbow method to find the best value for k by completing the following st
 * Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
 * Answer the following question in your notebook: What is the best value for k?
     #### **Answer**: 
-    >The best value for `k` would be 4, the curve begins to flatten there.
+    >The best value for `k` would be 4, the curve begins to flatten there. (Ref #1)
 
 # 3. Cluster Cryptocurrencies with K-Means Using the Original Scaled Data
 Use the following steps to cluster the cryptocurrencies for the best value for k on the original scaled data:
@@ -87,7 +87,7 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
 
 ####  Component # 3 - `PCA3`: 
 * The `price_change_percentage_7d` (0.787670) feature had the strongest **positive** influence on this component. It scored much higher than any other feature, compared against any of the 3 components. The `price_change_percentage_60d` (-0.361377) had the **strongest** negative influence on the component. The influence of the features on this component decreases in similar intervals from the price change percentage 14-day feature, to the 60-day feature. It then starts to steadily increase at the 200 day mark, which makes me wonder what it would look like if I had more data and columns that contained features that extended years into the future.  
-#### (Ref #1)  
+#### (Ref #6)  
 
 # Submission and Grading Requirements:
 ## Coding Conventions and Formatting 
@@ -120,3 +120,4 @@ To receive all points, your code must:
 3. Module 11, Day 2 Activities - The specific activities will be referenced throughout my code.
 4. Module 11, Day 3 Activites - The specific activities will be referenced throughout my code.
 5. [K-Means Clustering Explained](https://neptune.ai/blog/k-means-clustering#:~:text=Some%20factors%20can%20challenge%20the,clusters%20can%20result%20in%20overfitting.) - used for determining what happens when more clusters are added to K-means. 
+6. [What is principal component analysis (PCA)?](https://www.ibm.com/topics/principal-component-analysis) - used to analyze the PCA components against features.
