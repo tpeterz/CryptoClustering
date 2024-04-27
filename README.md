@@ -59,7 +59,8 @@ Use the elbow method on the PCA data to find the best value for k using the foll
     >It appears that at k=4, or 4 clusters, the elbow curve starts to straighten. The graph moves rapidly at this point and, visually, it appears to be a the "bend" in the elbow displayed.
     * Does it differ from the best k-value found using the original data?
     #### **Answer**: 
-    >I am not sure if it is supposed to differ, as I had previously determined the same number of clusters. So, it did not change using PCA data.
+    >I am not sure if it is supposed to differ, as I had previously determined the same number of clusters. So, it did not change using PCA data. 
+    #### (Ref #1)
 
 # 6. Cluster Cryptocurrencies with K-Means Using the PCA Data
 Use the following steps to cluster the cryptocurrencies for the best value for k on the PCA data:
